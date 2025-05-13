@@ -1,0 +1,37 @@
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+/* ルート要素のフォントサイズ */
+html {
+  font-size: 20px;
+}
+
+/* h1 のフォント */
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem; /* ルート要素20pxの2倍 = 40px */
+  letter-spacing: 1.2em;
+  text-shadow: 2px 2px 4px gray; /* 影の設定（自由） */
+  border-bottom: 3px solid rgb(115, 115, 114); /* 下線 */
+  display: inline-block;
+}
+
+/* カラー指定 */
+.blue {
+  color: skyblue;
+}
+
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+/* 太字指定 - basic内のp要素 */
+#basic p {
+  font-weight: bold;
+}
+
+/* 他のp要素（basic以外）は通常の太さ */
+body > p {
+  font-weight: normal;
+}
