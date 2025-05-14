@@ -41,25 +41,29 @@
   height: 300px;
   background-color: #87ceeb;
   margin: 0 auto;
-  position: relative; /*子要素に位置をつける*/
+  position: relative; /* 子要素に相対/絶対位置を適用可能にする */
 }
+
 #bottom-child01,
 #bottom-child02,
 #bottom-child03 {
   width: 200px;
   height: 100px;
   background-color: #e5dcf0;
-  position: relative; /* 相対位置でずらす */
+  position: relative; /* もとの位置からずらすために relative を指定 */
 }
 
 #bottom-child01 {
-  top: 0;
+  /* デフォルト位置のまま */
 }
 
 #bottom-child02 {
-  top: 200px; /* 200px下にずらす */
+  left: 200px;  /* 水平方向に200pxずらす */
 }
 
+#bottom-child03 {
+  left: 400px;  /* 水平方向に400pxずらす */
+}
 #bottom-child03 {
   top: 400px; /* 400px下にずらす */
 }
