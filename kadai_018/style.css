@@ -56,10 +56,11 @@
   left: 0;
 }
 #bottom-child02 {
-  top: 100px;
-  left: 200px;
+  top: 20px;     /* 少し下にずらす */
+  left: 140px;   /* 横にずらして並べる */
 }
+
 #bottom-child03 {
-  top: 200px;
-  left: 400px;
+  top: 40px;     /* さらに下にずらす */
+  left: 280px;   /* 横にずらして並べる */
 }
